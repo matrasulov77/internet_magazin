@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/pruduct.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header Section -->
+    <header>
+      <div class="container">
+        <section class="navbar">
+          <span class="burger_menu"><i class="fa-solid fa-bars"></i></span>
+          <div class="navbar_logo">
+            <img src="/img/logo.png" alt="logo" class="logo_img" />
+            <input
+              type="text"
+              class="input_search"
+              placeholder="Pesquisar produto..."
+            />
+            <span class="search_icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+          </div>
+          <div class="navbar_left">
+            <a href="#" class="navbar_left_link">Cadastre-se</a>
+            <button class="navbar_left_btn">Entrar</button>
+            <span class="search_left_icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+            <span class="shop_icon"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+          </div>
+        </section>
+        <nav class="nav">
+          <a href="./home.html" target="_blank " class="nav_link">Home</a>
+          <a href="./produtos.html" class="nav_link">Produtos</a>
+          <a href="#" class="nav_link">Categorias</a>
+          <a href="#" class="nav_link">Meus Pedidos</a>
+        </nav>
+      </div>
+    </header>
+    <!-- header Section end -->
+
+    <!-- main section -->
+    <main>
+      <div class="container">
+        <section class="prudotus_block">
+          <div class="product_block_left">
+            <b class="product_block_left_title">Resultados para “Tênis”</b>
+            <span class="product_block_left_text">- 389 produtos</span>
+          </div>
+          <select class="select">
+            <option value="search">
+              <strong>Ordernar por:</strong>mais relevantes
+            </option>
+          </select>
+        </section>
+        <section class="all_block">
+          <div class="filter_block">
+            <b class="filter_block_title">Filtrar por</b>
+            <hr class="filter_block_line" />
+            <div class="checkbox_block">
+              <h5 class="filter_block_title">Marka</h5>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Adiddas</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Calenciaga</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">K-Swiss</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Nike</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Puma</span>
+              </div>
+            </div>
+            <div class="checkbox_block">
+              <h5 class="filter_block_title">Categoria</h5>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Esporte e lazer</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Casual</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Utilitário</span>
+              </div>
+              <div class="checkbox_item">
+                <input type="checkbox" />
+                <span class="checkbox_text">Corrida</span>
+              </div>
+            </div>
+            <div class="checkbox_block">
+                <h5 class="filter_block_title">Gênero</h5>
+                <div class="checkbox_item">
+                  <input type="checkbox" />
+                  <span class="checkbox_text">Masculino</span>
+                </div>
+                <div class="checkbox_item">
+                  <input type="checkbox" />
+                  <span class="checkbox_text">Feminino</span>
+                </div>
+                <div class="checkbox_item">
+                  <input type="checkbox" />
+                  <span class="checkbox_text">Unisex</span>
+                </div>
+              </div>
+              <div class="checkbox_block">
+                <h5 class="filter_block_title">Estado</h5>
+                <div class="checkbox_item">
+                  <input type="radio" name="gender"/>
+                  <label for="man" class="checkbox_text">Novo</label>
+                </div>
+                <div class="checkbox_item">
+                    <input type="radio" name="gender"/>
+                    <label for="man" class="checkbox_text">Usado</label>
+                  </div>
+              </div>
+          </div>
+          <ul class="product_wrap">
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+            <li class="high_products_card">
+                <div class="high_products_img_block">
+                    <div class="featured_collections_body_discount_body">
+                        <span class="featured_collections_body_discount featured_collections_body_discount_2">30%
+                            OFF</span>
+                    </div>
+                    <img src="/img/Layer 1aa 2.png" alt="rasm" class="high_products_card_img" />
+                </div>
+                <div class="high_products_body">
+                    <span class="high_products_body_mini_text">Tênis</span>
+                    <h3 class="high_products_body_title">K-Swiss V8 - Masculino</h3>
+                    <del cite="del_price">$200</del>
+                    <b class="high_products_body_price"> $100</b>
+                </div>
+            </li>
+
+          </ul>
+        </section>
+      </div>
+    </main>
+    <!-- main section end  -->
+
+    <!-- footer section -->
+    <footer>
+        <div class="bg_black">
+            <div class="container">
+                <ul class="footer_wrap">
+                    <li class="footer_wrap_item">
+                        <img src="/img/logo (1).png" alt="logo" class="">
+                        <p class="footer_wrap_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <span class="facebook"><i class="fa-brands fa-facebook" style="color: white;"></i></span>
+                        <span class="facebook"><i class="fa-brands fa-instagram" style="color: white;"></i></span>
+                        <span class="facebook"><i class="fa-brands fa-telegram" style="color: white;"></i></span>
+                    </li>
+                    <li class="footer_wrap_item">
+                        <h3 class="footer_wrap_item_title">Informação</h3>
+                        <a href="#" class="footer_wrap_item_link">Sobre Drip Store</a>
+                        <a href="#" class="footer_wrap_item_link">Segurança</a>
+                        <a href="#" class="footer_wrap_item_link">Wishlist</a>
+                        <a href="#" class="footer_wrap_item_link">Wishlist</a>
+                        <a href="#" class="footer_wrap_item_link">Blog</a>
+                        <a href="#" class="footer_wrap_item_link">Trabalhe conosco</a>
+                        <a href="#" class="footer_wrap_item_link">Meus Pedidos</a>
+                    </li>
+                    <li class="footer_wrap_item">
+                        <h3 class="footer_wrap_item_title">Categorias</h3>
+                        <a href="#" class="footer_wrap_item_link">Camisetas</a>
+                        <a href="#" class="footer_wrap_item_link">Calças</a>
+                        <a href="#" class="footer_wrap_item_link">Bonés</a>
+                        <a href="#" class="footer_wrap_item_link">Headphones</a>
+                        <a href="#" class="footer_wrap_item_link">Tênis</a>
+                    </li>
+                    <li class="footer_wrap_item">
+                        <h3 class="footer_wrap_item_title">Contato</h3>
+                        <p class="footer_wrap_item_text text">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+                        <p class="footer_wrap_item_text">(85) 3051-3411</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="footer_last">
+                    <p class="copyright_text">@ 2022 Digital College</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- footer section end -->
+
+  </body>
+</html>
