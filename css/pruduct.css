@@ -78,7 +78,7 @@
     cursor: pointer;
   }
   
-  .burger_menu,
+  .burger_menu, .burger_menu1,
   .search_left_icon {
     display: none;
   }
